@@ -1,0 +1,360 @@
+html,body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: rgb(105, 105, 201);
+    position: sticky;
+    top: 0;
+    
+
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    line-height: 80px;
+
+}
+
+section{
+    height: calc(100vh - 80px);
+    scroll-margin-top: 80px;
+}
+#home {
+    background-color:brown ;
+
+}
+#about {
+    background-color:limegreen ;
+
+    
+}
+#galery {
+    background-color:orangered ;
+
+    
+}
+#contact {
+    background-color:rgb(45, 75, 72) ;
+
+    
+}
+h1{
+    margin: 0 20px 10px 30px;
+    padding-top: 20px;
+}
+.id:hover{
+    background-color: orangered;
+    color: black;
+    transition: 3s;
+    margin: auto;
+    
+}
+img{
+    margin: auto;
+    margin-left: 600px;
+    margin-top: 20px;
+    width: 30px;
+    
+}
+img:hover{
+    background-color: aqua;
+}
+
+    
+*{
+    margin: 0;
+    padding: 0;
+}
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background-color: aquamarine;
+} 
+ 
+.navbar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.navbar .logo a{
+    text-decoration:none ;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: brown; 
+}
+
+
+
+.navbar ul{
+   float: right; 
+   margin-right: 20px; 
+}
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}  
+
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family:sans-serif ;
+    transition: .9s;
+}
+
+
+
+.navbar ul li a:active,
+.navbar ul li a:hover{
+    background-color: orangered;
+    border-radius: 2px;
+
+}
+
+.container .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+    text-align: center;
+
+}
+
+
+
+.center h1{
+  color: darkorange; 
+  font-size: 70px;
+  font-weight: bold;
+  width: 900px;
+  text-align: center;
+}
+.center h2{
+    color: darkorange;  
+    font-size: 50px;
+    font-weight: bold;
+    width: 885px;
+    margin: top 10px; ;
+    text-align: center;
+  }
+
+  .center.buttons{
+    margin: 35px 280px; 
+
+  }
+.buttons button:hover{
+    background-color: aquamarine;
+}
+img{
+    float: left;
+    margin: 50px;
+
+}
+.lego {
+    height: 100px;
+    width: 100px;
+    background-image: url(kai.jpg);
+    background-size: cover;
+    transform: rotate(0deg);
+    transition:1s;
+    float: left;
+    width: 200px;
+    height: 200px;
+    filter: blur(15px);
+}
+    
+.lego:hover{
+    transform: rotate(360deg);
+    height: 600px;
+    width: 400px;
+    filter: grayscale(0%);
+    float: left;
+
+}
+.san {
+    height: 100px;
+    width: 100px;
+    background-image: url(loyd.jpg);
+    background-size: cover;
+    transform: rotate(0deg);
+    transition:1s;
+    float: left;
+    width: 200px;
+    height: 200px;
+    filter: blur(15px);
+
+
+
+
+
+}
+.san:hover{
+    transform: rotate(360deg);
+    height: 600px;
+    width: 400px;
+    filter: grayscale(0%);
+    filter: hue-rotate(180deg);
+    float: left;
+
+}
+.nin {
+    height: 100px;
+    width: 100px;
+    background-image: url(sens.jpg);
+    background-size: cover;
+    transform: rotate(0deg);
+    transition:1s;
+    float: left;
+    width: 200px;
+    height: 200px;
+    filter: blur(15px);
+    
+
+
+
+
+
+}
+.nin:hover{
+    transform: rotate(360deg);
+    height: 600px;
+    width: 400px;
+    filter: grayscale(0%);
+    float: left;
+
+}
+.lay {
+    height: 100px;
+    width: 100px;
+    background-image: url(cool.jpg);
+    background-size: cover;
+    transform: rotate(0deg);
+    transition:1s;
+    float: left;
+    width: 200px;
+    height: 200px;
+    filter: blur(15px);
+
+
+
+
+}
+.lay:hover{
+    transform: rotate(360deg);
+    height: 600px;
+    width: 400px;
+    filter: grayscale(0%);
+    float: left;
+
+}
+.la {
+    height: 100px;
+    width: 100px;
+    background-image: url(zan.jpg);
+    background-size: cover;
+    transform: rotate(0deg);
+    transition:1s;
+    float: left;
+    width: 200px;
+    height: 200px;
+    filter: blur(15px);
+
+
+
+
+
+}
+.la:hover{
+    transform: rotate(360deg);
+    height: 600px;
+    width: 400px;
+    filter: grayscale(0%);
+    float: left;
+
+}
+.man {
+    height: 100px;
+    width: 100px;
+    background-image: url(nya.jpg);
+    background-size: cover;
+    transform: rotate(0deg);
+    transition:1s;
+    float: left;
+    width: 200px;
+    height: 200px;
+    filter: blur(15px);
+
+
+
+
+
+}
+.man:hover{
+    transform: rotate(360deg);
+    height: 600px;
+    width: 400px;
+    filter: grayscale(0%);
+    float: left;
+
+}
+.nan {
+    height: 100px;
+    width: 100px;
+    background-image: url(jay.jpg);
+    background-size: cover;
+    transform: rotate(0deg);
+    transition:1s;
+    float: left;
+    width: 200px;
+    height: 200px;
+    filter: blur(15px);
+
+
+
+
+
+}
+.nan:hover{
+    transform: rotate(360deg);
+    height: 600px;
+    width: 400px;
+    filter: grayscale(0%);
+    float: left;
+
+}
+.hay {
+    height: 100px;
+    width: 100px;
+    background-image: url(gar.jpg);
+    background-size: cover;
+    transform: rotate(0deg);
+    transition:1s;
+    float: left;
+    width: 200px;
+    height: 200px;
+    filter: blur(15px);
+
+
+
+
+
+}
+.hay:hover{
+    transform: rotate(360deg);
+    height: 600px;
+    width: 400px;
+    filter: grayscale(0%);
+    float: left;
+
+}
