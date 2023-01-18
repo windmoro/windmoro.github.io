@@ -5,94 +5,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <title>Document</title>
+    <title>WINDMORO</title>
     <style>
+      a button{
+        background-color: gray;
+        border-radius: 15%;
+
+    
+      }
+       a button:hover{
+        background-color: white;
+        border-radius: 15%;
+        transition: 0.5s;
+        transform: scale(1.1);
+
+    
+      }
+
     </style>
 </head>
-<body style="background-color: white;">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><h1>WindMoro</h1></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.filmbitmez.com/bolum/lego-ninjago-spinjitzunun-ustalari-1-sezon-1-bolum-izle-turkce-dublaj-izle/">Ninjago ilzə Lİnkə bas</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Ninjago about
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="abo.html">About Ninjago</a></li>
-                  <li><a class="dropdown-item" href="com.html">İmages</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="ab.html">Haqqımda</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="kais.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 style="color: orangered;">Kai fire sensei</h3>
-              <p>Some representative placeholder content for the first slide.</p>
+<body>
+  
+    <nav class="navbar bg-dark navbar-dark navbar-expand-sm fixed-top">
+        <div class="container-fluid ana">
+            <a href="#" class="navbar-brand">
+                <img src="lightmoro.png" width="60px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html " class="nav-link">
+                          <button>Home</button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="ab.html" class="nav-link">
+                          <button>İmage</button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="com.html" class="nav-link">
+                          <button>For you</button>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="abo.html" class="nav-link">
+                          <button>About me</button>
+                        </a>
+                    </li>
+                </ul>                
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="Lloyd.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 style="color: lawngreen;">Lloyd enerjy sensei</h3>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="cole.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h3 style="color: brown;">Cole soul sensei</h3>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <h1 style="text-align: center; color: black;">Ninjago haqqında</h1>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-      <div class="haq">
-        <p>Ninjago (önceki adıyla Ninjago: Masters of Spinjitzu 2019'a kadar), The Lego Group tarafından üretilen bilgisayar animasyonlu bir televizyon dizisidir. Serinin karakterlerine ve olaylarına dayanan Lego Ninjago inşaat oyuncakları serisine denk gelecek şekilde yaratıldı. Altı genç ninjadan oluşan bir grubun hikayesini ve kötü güçlere karşı savaşlarını anlatan Ninjago'nun kurgusal dünyasına odaklanıyor. Dizi, iki Danimarkalı film yapımcısı olan Michael Hegner ve Tommy Andreasen tarafından yaratıldı. Hikaye, dokuzuncu sezona kadar Kevin ve Dan Hageman tarafından yazıldı; baş yazar olarak halefleri Bragi Schut idi. Şovda, dizide tekrar eden rollere sahip olan geniş bir seslendirme sanatçısı kadrosu yer alıyor. İngilizce seslendirme, tüm çalışması boyunca Kanada'da kaydedildi. Müzik, besteciler Michael Kramer ve Jay Vincent tarafından not edildi.
+    </nav>
+    <div class="container" style="margin-top: 90px;  padding-bottom: 40px;">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="1857434.jpg" class="d-block w-100 img-thumbnail" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Dark Wallpaper</h5>
+                  <p>Dark color is nice</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="whomn.jpg" class="d-block w-100 img-thumbnail" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Dark  Wallpaper</h5>
+                  <p>Dark color is nice</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="drak.jpg" class="d-block w-100 img-thumbnail" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Dark Wallpaper</h5>
+                  <p>Dark color is nice</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <p class="my-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ratione voluptate pariatur. Ipsum provident totam veritatis fugit atque officia sunt, perspiciatis molestias fugiat quas, blanditiis asperiores! Magni molestias neque cumque ducimus suscipit! Inventore possimus enim quo odit esse iste deserunt! Magni voluptatibus, assumenda dolorem nostrum quo ducimus obcaecati facere veniam et quos commodi officia. 
         </p>
-      </div>
-      <div class="footer">
-        <h5 style="text-align: center; color: black;">Desgn by Muhammed Ahmadzada 2023</h5>
-      </div>
+        <div class="d-flex flex-wrap">
+          <div class="card mx-auto my-3">
+            <img src="robot.jpg" class="card-img-top">
+        <p>
+           <div class="shadow p-3 mb-5 bg-body-tertiary rounded">Men Elmeddin Oglu Muhammed Ahmadzada bu saytı düzəldən şəxs sizinlə tanışdığımı şadam.</div>
+        </p>
+    </div>
+    <div class="navbar bg-dark dark-navbar fixed-bottom ">
+        <p class="text-light mx-auto my-auto">
+            Designed by: WindMoro &ac; 2023
+        </p>
+    </div>
 
-      </body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
 </html>
