@@ -1,2 +1,0 @@
-# windmoro.github.io
-Muhammed
