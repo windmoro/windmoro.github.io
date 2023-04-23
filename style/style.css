@@ -115,48 +115,55 @@ a{
    
  
    .btn1 {
-    font-size: 11px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    display: inline-block;
+    height: 45px;
+    margin: 5px;
     text-align: center;
-    font-weight: bold;
-    padding: 0.7em 2em;
-    margin: 10px;
-    border: 1px solid #fbfbfb;
-    border-radius: 2px;
-    position: relative;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
-    color: #0000;
-    text-decoration: none;
-    transition: 0.3s ease all;
-    z-index: 1;
+    width: 110px;
+    background: #333;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: Consolas, Courier New, monospace;
+ 
+    font-size: 16px;
+    color: rgb(161, 161, 161);
+    -webkit-transition: 500ms;
+    transition: 500ms;
+    border-radius: 5px;
+    background: linear-gradient(145deg, #2e2d2d, #212121);
+   
   }
   
-  .btn1:before {
-    transition: 0.5s all ease;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    right: 50%;
-    bottom: 0;
-    opacity: 0;
-    content: '';
-    background-color: #ffffff20;
-    z-index: -1;
+  .btn1:hover {
+    -webkit-box-shadow: 1px 1px 13px #20232e,
+                      -1px -1px 13px #545b78;
+    box-shadow: 1px 1px 13px #20232e,
+               -1px -1px 13px #545b78;
+    color: #d6d6d6;
+    -webkit-transition: 500ms;
+    transition: 500ms;
+    -webkit-box-shadow: -1px -5px 15px #41465B, 
+    5px  5px 15px #31323a, 
+    inset      5px  5px 10px #534545, 
+    inset     -5px -5px 10px #3a3c42;
+    box-shadow: -1px -5px 15px #3f414a, 
+        5px  5px 15px #1b1c1f, 
+    inset      5px  5px 10px #212121, 
+    inset     -5px -5px 10px #212121;
+    transform: scale(1.02);
+    transition: 0.1s;
   }
   
-  .btn1:hover, .btn1:focus {
-    color: black;
-  }
-  
-  .btn1:hover:before, .btn1:focus:before {
-    transition: 0.5s all ease;
-    left: 0;
-    right: 0;
-    opacity: 1;
-  }
   
   .btn1:active {
-    transform: scale(0.9);
+    -webkit-box-shadow: 1px 1px 13px #20232e,
+                       -1px -1px 33px #545b78;
+    box-shadow: 1px 1px 13px #20232e,
+               -1px -1px 33px #545b78;
+    color: #d6d6d6;
+    -webkit-transition: 100ms;
+    transition: 100ms;
   }
