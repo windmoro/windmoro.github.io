@@ -147,12 +147,12 @@ a{
     transition: 500ms;
     -webkit-box-shadow: -1px -5px 15px #41465B, 
     5px  5px 15px #31323a, 
-    inset      5px  5px 10px #534545, 
-    inset     -5px -5px 10px #3a3c42;
+    inset 5px 5px 10px #534545, 
+    inset -5px -5px 10px #3a3c42;
     box-shadow: -1px -5px 15px #3f414a, 
-        5px  5px 15px #1b1c1f, 
-    inset      5px  5px 10px #212121, 
-    inset     -5px -5px 10px #212121;
+    5px 5px 15px #1b1c1f, 
+    inset 5px 5px 10px #212121, 
+    inset -5px -5px 10px #212121;
     transform: scale(1.02);
     transition: 0.1s;
   }
