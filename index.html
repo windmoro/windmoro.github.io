@@ -5,10 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut icon" href="img/ct.ico" type="image/x-icon">
     <title>CADVES TECHNOLOGY</title>
     <style>
+      a button{
+        background-color: gray;
+        border-radius: 15%;
+      }
+
+       a button:hover{
+        background-color: white;
+        border-radius: 15%;
+        transition: 0.5s;
+        transform: scale(1.1);
+      }
+
       .sekil:hover{
         transform: scale(1.05);
         transition: 0.3s;
@@ -18,29 +30,41 @@
 <body>
   <nav class="navbar bg-dark navbar-dark navbar-expand-sm fixed-top">
     <div class="container-fluid">
-      <a style="padding-right: 10px;" class="navbar-brand shadow__btn" href="#"><img class="mx-6" src="logo.png" width="40px"> CADVES TECHNOLOGY </a>
+      <a style="padding-right: 10px;" class="navbar-brand" href="#"><img class="mx-6" src="img/logo.png" width="40px"> CADVES TECHNOLOGY </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button> 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active text-light shadow__btn" aria-current="page" href="#home">Home</a>
+            <a class="nav-link active" aria-current="page" href="#home"><button type="button" class="glow-on-hover">
+              Home
+            </button></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active shadow__btn" aria-current="page" href="#product">Product</a>
+            <a class="nav-link active" aria-current="page" href="#product"><button type="button" class="glow-on-hover">
+              Product
+            </button></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active shadow__btn" aria-current="page" href="#about">About</a>
+            <a class="nav-link active" aria-current="page" href="#about"><button type="button" class="glow-on-hover">
+              About
+            </button></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active shadow__btn" aria-current="page" href="#galery">Galery</a>
+            <a class="nav-link active" aria-current="page" href="#galery"><button type="button" class="glow-on-hover">
+              Galery
+            </button></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active shadow__btn" aria-current="page" href="#partner">Partners</a>
+            <a class="nav-link active" aria-current="page" href="#partner"><button type="button" class="glow-on-hover">
+              Partenrs
+            </button></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active shadow__btn" aria-current="page" href="#contact">Contact</a>
+            <a class="nav-link active" aria-current="page" href="#contact"><button type="button" class="glow-on-hover">
+              Contact
+            </button></a>
           </li>
           <li class="nav-item">
             <a class="nav-link disabled"></a>
@@ -58,21 +82,21 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="222.jpg" class="d-block w-100 img-thumbnail" alt="...">
+          <img src="img/222.jpg" class="d-block w-100 img-thumbnail" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>CADVES-TEXNOLOGİYA</h5>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, impedit!</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="111.jpg" class="d-block w-100 img-thumbnail" alt="...">
+          <img src="img/111.jpg" class="d-block w-100 img-thumbnail" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>CADVES-TEXNOLOGİYA</h5>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, deleniti?</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="333.jpg" class="d-block w-100 img-thumbnail" alt="...">
+          <img src="img/333.jpg" class="d-block w-100 img-thumbnail" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>CADVES-TEXNOLOGİYA</h5>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, atque?</p>
@@ -99,13 +123,13 @@
         <div class="card text-light text-center bg-white pb-1 shadow">
           <div class="card-body text-dark">
             <div class="img-area mb-4">
-              <img src="hi.jpg" width="260px" class="sekil img-fluid">
+              <img src="img/hi.jpg" width="260px" class="sekil img-fluid">
             </div>
             <h3 class="card-title">CADVES-TEXNOLOGİYA</h3>
             <p class="lead">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, ullam eaque aliquam magni illum doloremque quibusdam fuga earum ut provident.
+              Cadves Technology, dolor sit amet consectetur adipisicing elit. Omnis, ullam eaque aliquam magni illum doloremque quibusdam fuga earum ut provident.
             </p>
-            <button class="btn bg-warning text-dark btn1  ">Daha Ətraflı</button>
+            <button class="btn bg-warning text-dark">Daha Ətraflı</button>
           </div>
         </div>
       </div>
@@ -114,11 +138,11 @@
         <div class="card text-light text-center bg-white pb-1 shadow">
           <div class="card-body text-dark">
             <div class="img-area mb-4">
-              <img src="ic.jpg" width="260px" class="sekil img-fluid ">
+              <img src="img/ic.jpg" width="260px" class="sekil img-fluid ">
             </div>
             <h3 class="card-title mx-auto">CADVES-TEXNOLOGİYA</h3>
             <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi natus quaerat mollitia nemo magnam. Animi explicabo doloribus deleniti. Quae, nobis?</p>
-            <button class="btn bg-warning text-dark btn1">Daha Ətraflı</button>
+            <button class="btn bg-warning text-dark btn">Daha Ətraflı</button>
           </div>
         </div>
       </div>
@@ -127,12 +151,12 @@
         <div class="card text-light text-center bg-white pb-1 shadow">
           <div class="card-body text-dark">
             <div class="img-area mb-4">
-              <img src="gre.jpg" width="260px" class="sekil img-fluid">
+              <img src="img/gre.jpg" width="260px" class="sekil img-fluid">
             </div>
             <h3 class="card-title">CADVES-TEXNOLOGİYA</h3>
             <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus nihil tempore libero ab magni, nobis unde corrupti alias veniam earum.
             </p>
-            <button class="btn bg-warning text-dark btn1">Daha Ətraflı</button>
+            <button class="btn bg-warning text-dark btn">Daha Ətraflı</button>
           </div>
         </div>
       </div>
@@ -142,13 +166,13 @@
         <div class="card text-light text-center bg-white pb-1 shadow">
           <div class="card-body text-dark">
             <div class="img-area mb-4">
-              <img src="ni.jpg" width="260px" class="sekil img-fluid">
+              <img src="img/ni.jpg" width="260px" class="sekil img-fluid">
             </div>
             <h3 class="card-title">CADVES-TEXNOLOGİYA</h3>
             <p class="lead">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, ullam eaque aliquam magni illum doloremque quibusdam fuga earum ut provident.
             </p>
-            <button class="btn bg-warning text-dark btn1">Daha Ətraflı</button>
+            <button class="btn bg-warning text-dark btn">Daha Ətraflı</button>
           </div>
         </div>
       </div>
@@ -157,12 +181,12 @@
         <div class="card text-light text-center bg-white pb-1 shadow">
           <div class="card-body text-dark">
             <div class="img-area mb-4">
-              <img src="ari.jpg" width="260px" class="sekil img-fluid">
+              <img src="img/ari.jpg" width="260px" class="sekil img-fluid">
             </div>
             <h3 class="card-title mx-auto">CADVES-TEXNOLOGİYA</h3>
             <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi natus quaerat mollitia nemo magnam. Animi explicabo doloribus deleniti. Quae, nobis?
             </p>
-            <button class="btn bg-warning text-dark btn1">Daha Ətraflı</button>
+            <button class="btn bg-warning text-dark btn">Daha Ətraflı</button>
           </div>
         </div>
       </div>
@@ -171,37 +195,32 @@
         <div class="card text-light text-center bg-white pb-1 shadow">
           <div class="card-body text-dark">
             <div class="img-area mb-4">
-              <img src="is.jpg" width="260px" class="sekil img-fluid">
+              <img src="img/is.jpg" width="260px" class="sekil img-fluid">
             </div>
             <h3 class="card-title">CADVES-TEXNOLOGİYA</h3>
             <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus nihil tempore libero ab magni, nobis unde corrupti alias veniam earum.
             </p>
-            <button class="btn bg-warning text-dark btn1">Daha Ətraflı</button>
+            <button class="btn bg-warning text-dark btn">Daha Ətraflı</button>
           </div>
         </div>
       </div>
     </div>
-    
-    
     <hr>
     <h1 id="about" class="text-center">ABOUT</h1><br>
     <div class="shadow p-3 mb-1 bg-body-tertiary rounded">
-      <img src="logo.png"  class="card-img-top">
+      <img src="img/logo.png"  class="card-img-top">
       Cadves-Texnolgiya olaraq missyamiz müasir dünyada texnologiyanın inkişafını daimi olaraq izləmək və bu yeniliklərə uyğun istehsal olunmuş mal material və avadanlıqlarla techizat sifarişlərini icra etməkdir. <br><br> Şirkətimiz 2018-ci ildə təsis olunmuş və həmin gündən İnşaat və Sənayə seltorunda hər zaman yüksək keyfiyyət, qısa zaman və minimal xərclər prinsipi ilə daima sifarişçilər qarşısında öz öhdəliyini yerinə yetirmişdir 
     </div>
     <br>
     <hr>
     <h1 id="galery" style="text-align: center;">GALERY</h1>
     <div class="container-fluid d-flex flex-wrap">
-      <img style="border-radius: 8%;" class="sekil mx-auto my-4 shadow p-3 mb-1 bg-body-tertiary rounded" src="1.jpg" width="350px">
-      <img style="border-radius: 8%;" class="sekil mx-auto my-3 shadow p-3 mb-1 bg-body-tertiary rounded" src="2.jpg" width="350px">
-      <img style="border-radius: 8%;" class="sekil mx-auto my-4 shadow p-3 mb-1 bg-body-tertiary rounded" src="3.jpg" width="350px">
-      <img style="border-radius: 8%;" class="sekil mx-auto my-4 shadow p-3 mb-1 bg-body-tertiary rounded" src="4.jpg" width="350px" height="450px">
-      <img style="border-radius: 8%;" class="sekil mx-auto my-4 shadow p-3 mb-1 bg-body-tertiary rounded" src="5.jpg" width="350px" height="450px">
-      <img style="border-radius: 8%;" class="sekil mx-auto my-4 shadow p-3 mb-1 bg-body-tertiary rounded" src="44.jpg" width="350px" height="450px">
-      <img style="border-radius: 8%;" class="sekil mx-auto my-4 shadow p-3 mb-1 bg-body-tertiary rounded" src="55.jpg" width="350px" height="450px">
-      <img style="border-radius: 8%;" class="sekil mx-auto my-4 shadow p-3 mb-1 bg-body-tertiary rounded" src="77.jpg" width="350px" height="450px">
-      <img style="border-radius: 8%;" class="sekil mx-auto my-4 shadow p-3 mb-1 bg-body-tertiary rounded" src="31.jpg" width="350px" height="450px">
+      <img style="border-radius: 8%;" class="sekil mx-auto my-4 shadow p-3 mb-1 bg-body-tertiary rounded" src="img/1.jpg" width="350px">
+      <img style="border-radius: 8%;" class="sekil mx-auto my-3 shadow p-3 mb-1 bg-body-tertiary rounded" src="img/2.jpg" width="350px">
+      <img style="border-radius: 8%;" class="sekil mx-auto my-4 shadow p-3 mb-1 bg-body-tertiary rounded" src="img/3.jpg" width="350px">
+      <img style="border-radius: 8%;" class="sekil mx-auto my-4 shadow p-3 mb-1 bg-body-tertiary rounded" src="img/4.jpg" width="350px">
+      <img style="border-radius: 8%;" class="sekil mx-auto my-4 shadow p-3 mb-1 bg-body-tertiary rounded" src="img/5.jpg" width="350px">
+      <img style="border-radius: 8%;" class="sekil mx-auto my-4 shadow p-3 mb-1 bg-body-tertiary rounded" src="img/6.jpg" width="350px">
     </div>
   </div>
   <hr>
@@ -210,24 +229,24 @@
     <div class="wrapper mx-auto">
       <div class="slider">
         <div class="slide2">
-          <a href="https://socar.az/"><img src="socar.png" width="200px"  height="300px"></a>
-          <a href="https://www.asco.az/"><img src="bsc.png" width="200px" height="300px">  </a>
-          <a href="https://www.bakusteel.com/"><img src="asco.png" width="200px" height="300px"> </a>
-          <a href="http://www.elholding.az/"><img src="elholding.png" width="200px" height="300px"> </a>
-          <a href="https://socar.az/"><img src="socar.png" width="200px" height="300px"> </a>
-          <a href="https://www.asco.az/"><img src="bsc.png" width="200px" height="300px"> </a>
-          <a href="https://www.bakusteel.com/"><img src="asco.png" width="200px" height="300px"> </a>
-          <a href="http://www.elholding.az/"><img src="elholding.png" width="200px " height="300px"> </a>
+          <a href="https://socar.az/"><img src="img/socar.png" alt=""></a>
+          <a href="https://www.asco.az/"><img src="img/bsc.png" alt=""></a>
+          <a href="https://www.bakusteel.com/"><img src="img/asco.png" alt=""></a>
+          <a href="http://www.elholding.az/"><img src="img/elholding.png" alt=""></a>
+          <a href="https://socar.az/"><img src="img/socar.png" alt=""></a>
+          <a href="https://www.asco.az/"><img src="img/bsc.png" alt=""></a>
+          <a href="https://www.bakusteel.com/"><img src="img/asco.png" alt=""></a>
+          <a href="http://www.elholding.az/"><img src="img/elholding.png" alt=""></a>
         </div>
         <div class="slide2">
-          <a href="https://socar.az/"><img src="socar.png" width="200px" height="300px"> </a>
-          <a href="https://www.asco.az/"><img src="bsc.png" width="200px"height="300px"> </a>
-          <a href="https://www.bakusteel.com/"><img src="asco.png" width="200px" height="300px"> </a>
-          <a href="http://www.elholding.az/"><img src="elholding.png" width="200px" height="300px"> </a>
-          <a href="https://socar.az/"><img src="socar.png" width="200px" height="300px"> </a>
-          <a href="https://www.asco.az/"><img src="bsc.png" width="200px" height="300px"> </a>
-          <a href="https://www.bakusteel.com/"><img src="asco.png" width="200px" height="300px"> </a>
-          <a href="http://www.elholding.az/"><img src="elholding.png" width="200px" height="300px"> </a>  
+          <a href="https://socar.az/"><img src="img/socar.png" alt=""></a>
+          <a href="https://www.asco.az/"><img src="img/bsc.png" alt=""></a>
+          <a href="https://www.bakusteel.com/"><img src="img/asco.png" alt=""></a>
+          <a href="http://www.elholding.az/"><img src="img/elholding.png" alt=""></a>
+          <a href="https://socar.az/"><img src="img/socar.png" alt=""></a>
+          <a href="https://www.asco.az/"><img src="img/bsc.png" alt=""></a>
+          <a href="https://www.bakusteel.com/"><img src="img/asco.png" alt=""></a>
+          <a href="http://www.elholding.az/"><img src="img/elholding.png" alt=""></a>  
         </div>
       </div>
     </div>
@@ -239,19 +258,19 @@
         Ünvan- AZ1141, Bakı ş., Yasamal r., Şəhriyar 5  <br><br>
         Email - office@cadvestechnology.az <br><br>
         <a href="tel:+994502342266">
-          <img class="sekil mx-1" src="phone.png" width="50px">
+          <img class="sekil mx-1" src="img/phone.png" width="50px">
         </a>
         <a href="https://wa.me/+994502342266">
-          <img class="sekil mx-1" src="whatsapp.png" width="50px">
+          <img class="sekil mx-1" src="img/whatsapp.png" width="50px">
         </a>
         <a href="#">
-          <img class="sekil mx-1" src="tg.png" width="50px">
+          <img class="sekil mx-1" src="img/tg.png" width="50px">
         </a>
         <a href="#">
-          <img class="sekil mx-1" src="fb.png" width="50px">
+          <img class="sekil mx-1" src="img/fb.png" width="50px">
         </a>
         <a href="#">
-          <img class="sekil mx-1" src="ins.png" width="50px">
+          <img class="sekil mx-1" src="img/ins.png" width="50px">
         </a>
         <br><br>
         <hr>
