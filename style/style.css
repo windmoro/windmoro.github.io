@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.sekil{
+  border: 1px solid black;
+}
 .sekil:hover{
     transform: scale(1.05);
     transition: 0.3s;
